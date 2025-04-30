@@ -1,0 +1,166 @@
+/*CSS RESET*/
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* General body styling */
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #f8f9fa;
+  color: #212529;
+}
+
+/* Intro text styling */
+.intro-text h1 {
+  font-weight: 700;
+  font-size: 2.5rem;
+}
+
+.intro-text h3 {
+  font-weight: 400;
+  font-size: 1.5rem;
+  color: #6c757d;
+}
+
+.intro-text p {
+  font-size: 1.1rem;
+  margin-bottom: 1.5rem;
+}
+
+/* Button custom style */
+.project-button,
+.btn-outline-primary {
+  padding: 0.6rem 1.2rem;
+  font-weight: 500;
+  font-size: 1rem;
+  border-radius: 0.5rem;
+  transition: all 0.3s ease-in-out;
+}
+
+.project-button:hover,
+.btn-outline-primary:hover {
+  background-color: #0d6efd;
+  color: #fff;
+}
+
+/* Card spacing */
+.card-title {
+  font-weight: 600;
+  font-size: 1.1rem;
+}
+
+.card-text {
+  font-size: 0.95rem;
+  color: #495057;
+}
+
+#project6 img{
+  height: 200px;
+}
+
+#submit{
+  background-color: #0000ff;
+  color: #fff;
+}
+
+/* Responsive placeholder */
+.card-img-placeholder {
+  height: 200px;
+  background-color: #e9ecef;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1rem;
+  color: #6c757d;
+}
+
+/* Back to top button */
+.btn-secondary {
+  font-size: 0.9rem;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+}
+
+#contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 5rem;
+  background-color: lightgray;
+}
+
+.form-container {
+  width: 100%;
+  max-width: 500px;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  width: 100%;
+}
+
+form button {
+  margin-top: 1rem;
+}
+
+iframe {
+  margin-top: 2rem;
+  max-width: 100%;
+  height: auto;
+}
+
+
+#reset{
+  margin-top: 25px;
+  background-color: red;
+  color: #fff;
+}
+
+.footer h1{
+  font-size: 25px;
+  text-align: center;
+  color: #fff;
+}
+
+.footer{
+  background-color: #0000ff;
+  padding: 25px;
+}
+
+/* Responsive tweaks */
+@media (max-width: 576px) {
+  .intro-text h1 {
+    font-size: 1.8rem;
+  }
+
+  .intro-text h3 {
+    font-size: 1.2rem;
+  }
+
+  .intro-text p {
+    font-size: 1rem;
+  }
+
+  .card-text {
+    font-size: 0.9rem;
+  }
+
+}
+
+@media (max-width: 600px) {
+  .form-container {
+    padding: 20px;
+  }
+}
+
+@media (max-width: 767px){
+  .footer h1{
+    font-size: 20px;
+  }
+}
