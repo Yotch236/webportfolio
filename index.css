@@ -28,6 +28,10 @@ body {
   margin-bottom: 1.5rem;
 }
 
+.tool-icon {
+  max-width: 60px;
+  height: auto;
+}
 /* Button custom style */
 .project-button,
 .btn-outline-primary {
